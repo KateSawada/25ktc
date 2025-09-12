@@ -1,0 +1,28 @@
+theme:
+    name: material
+    palette:
+        primary: teal
+        accent: amber
+    logo: assets/logo.png
+    favicon: assets/logo.png
+    text: Noto Sans JP
+site_name: 演目解説Webサイト
+nav:
+    - Home: 'index.md'
+extra_css:
+    - "css/custom.css"
+extra_javascript:
+    - "https://www.googletagmanager.com/gtag/js?id=G-V15TCBQT2E"
+markdown_extensions:
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+            - class: mermaid
+            - format: !!python/name:pymdownx.superfences.fence_code_format
+    - fontawesome_markdown
+
+copyright: Copyright &copy; 2024 - KateSawada
