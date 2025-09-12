@@ -2,6 +2,16 @@
 title: KateSawada
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V15TCBQT2E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V15TCBQT2E');
+</script>
+
 # このページについて
 
 このページを見て頂きありがとうございます! 名古屋大学の澤田桂都です。
